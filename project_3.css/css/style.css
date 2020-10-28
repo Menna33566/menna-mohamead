@@ -37,9 +37,6 @@
 .photo:hover p {
   display: block;
 }
-.photo:hover{
-display:
-}
 h4,p{
   color:#f7c2b2; text-transform: capitalize; font-size:20px;
 }
@@ -50,13 +47,13 @@ h4,p{
   background:url('../imags/back1.jpg') 100% no-repeat;  padding:0px;margin:0px;
 }
 .pragraph{
-  background: url('../imags/ww.jpg') 100% fixed repeat;margin:110px; padding: 30px;border: 5px ;
+  background:url('../imags/ww.jpg') 100% 100% / cover fixed no-repeat;margin:110px; padding: 30px;border: 5px ;
 }
 .one{
-  background: rgba(255, 0, 0, 0.5);direction: rtl;margin:20px; padding: 30px;border: 1px
+  background:rgba(255, 0, 0, 0.5);direction: rtl;margin:20px; padding: 30px;border: 1px
 }
 .two{
-  background: rgba(25, 56, 34, 0.5);margin:20px; padding: 30px;border: 1px;
+  background:rgba(25, 56, 34, 0.5);margin:20px; padding: 30px;border: 1px;
 }
 .ar{
    background:#ddf;margin:90px; padding: 20px;border:2px groove ;
