@@ -43,7 +43,7 @@ body{
   background: #a253ab88;transition: .35s all ease-in-out;
 }
 .quter{
-  background: #4568;margin:253px 50px 3px -125px ;padding:20px;
+  background: #4568;margin:253px 50px 3px -125px;padding:20px;
    float: left;position: fixed;text-align: center;width:90px;
 }
 .quter:hover{
