@@ -6,7 +6,7 @@ body{
    position: fixed;
    width: 1000%;height: 50px;overflow: hidden;
     margin:-20px;
-     padding:0px 0px 0px 2px;
+     padding:0px 0px 0px 2px; z-index:1 ;
 }
 .left a {
   background:#80828a;padding: 14px; float: left;
@@ -19,28 +19,35 @@ body{
   display: none;
 }
 .un{
-  background: #4568;margin:66px 50px 3px -76px ;padding:20px; float: left;position: fixed;text-align: center;
+  background: #4568;margin:66px 50px 3px -126px ;padding:20px;
+   float: left;position: fixed;text-align: center;width:90px;
 }
 .un:hover{
-  margin:66px 50px 3px -20px; border-radius: 30px;background:#2c81a188;transition: 1s ease-in-out all;
+  margin:66px 50px 3px -20px; border-radius: 30px;
+  background:#2c81a188;transition: .35s ease-in-out all;
 }
 .deux{
-  background: #4568;margin:128px 50px 3px -67px ;padding:20px; float: left;position: fixed;text-align: center;
+  background: #4568;margin:128px 50px 3px -125px ;padding:20px;
+  float: left;position: fixed;text-align: center;width:90px;
 }
 .deux:hover{
-  margin:128px 50px 3px -20px; border-radius: 30px;background: #6661be88;transition: 1s ease-in-out all;
+  margin:128px 50px 3px -20px; border-radius: 30px;
+  background: #6661be88;transition:.35s ease-in-out all;
 }
 .tro{
-  background: #4568;margin:190px 50px 3px -87px ;padding:20px; float: left;position: fixed;text-align: center;
+  background: #4568;margin:190px 50px 3px -125px ;padding:20px;
+   float: left;position: fixed;text-align: center;width:90px;
 }
 .tro:hover{
-  margin:190px 50px 3px -20px; border-radius: 30px;background: #a253ab88;transition: 1s ease-in-out all;
+  margin:190px 50px 3px -20px; border-radius: 30px;
+  background: #a253ab88;transition: .35s all ease-in-out;
 }
 .quter{
-  background: #4568;margin:253px 50px 3px -92px ;padding:20px; float: left;position: fixed;text-align: center;
+  background: #4568;margin:253px 50px 3px -125px ;padding:20px;
+   float: left;position: fixed;text-align: center;width:90px;
 }
 .quter:hover{
-  margin:253px 50px 3px -20px; border-radius: 30px;background:#76020288;transition: 1s ease-in-out ;
+  margin:253px 50px 3px -20px; border-radius: 30px;background:#76020288;transition:.35s ease-in-out ;
 }
 ol{
   list-style-type:none;
@@ -55,14 +62,14 @@ ol{
 }
 
 .be{
-  background:rgb(233, 178, 178); padding: 10px;margin:30px 160px; width: auto;text-align: center;
-  border-radius: 10px;
+  background:rgb(233, 178, 178); padding: 10px;margin:30px 160px; width: auto;
+  border-radius: 10px; line-height: 30px;
 }
 .be p{
-  display: none;transition: .12s;
+  transition: .12s; max-height: 23px; overflow: hidden;
 }
-.be:hover p{
-  display: block;
+.be:hover p {
+  max-height: 160px !important
 }
 .second{
   padding: 70px; background: #6788; margin: 50px;
