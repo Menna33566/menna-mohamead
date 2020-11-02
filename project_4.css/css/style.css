@@ -2,9 +2,10 @@ body{
   background:#bcbce8;text-transform: capitalize;
 }
 .left{
-   background:#1f2022;
+   background:#000;
    position: fixed;
-   width: 1000%;height: 50px;overflow: hidden;  margin:-20px;
+   width: 1000%;height: 50px;overflow: hidden;
+    margin:-20px;
      padding:0px 0px 0px 2px;
 }
 .left a {
@@ -45,17 +46,32 @@ ol{
   list-style-type:none;
 }
 .black{
-  background: black;width: 100%;color: #fff;margin: 20px 0px 10px -27px;padding:10px; border-radius: 30px
+   background-color: black;
+   color: white;
+   padding: 10px;margin: 10px 10px 6px -19px;
+   position: sticky;
+   top: 71px;
+   left: 0;border-radius: 30px;
 }
+
 .be{
-  background:rgb(208, 154, 154); padding: 10px;margin:30px 160px; width: auto;text-align: center;
+  background:rgb(233, 178, 178); padding: 10px;margin:30px 160px; width: auto;text-align: center;
   border-radius: 10px;
 }
 .be p{
-  display: none;transition: 1s ease-in-out ;
+  display: none;transition: .12s;
 }
 .be:hover p{
   display: block;
+}
+.second{
+  padding: 70px; background: #6788; margin: 50px;
+}
+.second:hover:after{
+  content: 'the hover';
+  background: rgba(107,157,175, 1);
+  padding: 20px;
+  margin-top: 30px; display: block;
 }
 .with p{
   background: rgba(151, 173,215, 0.5); display: block;padding: 30px;margin: 40px 80px;display:block;
@@ -76,11 +92,11 @@ p:hover ~ p{
   background:#0da5ffeb; transition: 2s;
 }
 .ui p:first-letter{
-  font-size: 50px; color: #7324; background: #4568;border-radius:30px;
+  font-size: 30px; color:#3e2723; background:  #000 ;border-radius:8px;
 }
 .ui{
-  background: #8875;margin: 70px;padding: 6px 10px 20px 10px;
+  background:#07070255;margin: 70px;padding: 6px 10px 20px 10px;
 }
-.ui span{
-  background: #9767; padding: -39px;
+.ui p:first-line{
+  background:#d7d5e888;
 }
