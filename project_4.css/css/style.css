@@ -20,34 +20,35 @@ body{
 }
 .un{
   background: #4568;margin:66px 50px 3px -126px ;padding:20px;
-   float: left;position: fixed;text-align: center;width:90px;
+   float: left;position: fixed;text-align: center;width:90px;transition: .35s  all ease-in-out ;
 }
 .un:hover{
   margin:66px 50px 3px -20px; border-radius: 30px;
-  background:#2c81a188;transition: .35s ease-in-out all;
+  background:#2c81a188;
 }
 .deux{
-  background: #4568;margin:128px 50px 3px -125px ;padding:20px;
+  background: #4568;margin:128px 50px 3px -125px ;padding:20px;transition: .35s  all ease-in-out ;
   float: left;position: fixed;text-align: center;width:90px;
 }
 .deux:hover{
   margin:128px 50px 3px -20px; border-radius: 30px;
-  background: #6661be88;transition:.35s ease-in-out all;
+  background: #6661be88;
 }
 .tro{
   background: #4568;margin:190px 50px 3px -125px ;padding:20px;
-   float: left;position: fixed;text-align: center;width:90px;
+   float: left;position: fixed;text-align: center;width:90px;transition: .35s  all ease-in-out ;
 }
 .tro:hover{
   margin:190px 50px 3px -20px; border-radius: 30px;
-  background: #a253ab88;transition: .35s all ease-in-out;
+  background: #a253ab88;
 }
 .quter{
   background: #4568;margin:253px 50px 3px -125px;padding:20px;
-   float: left;position: fixed;text-align: center;width:90px;
+   float: left;position: fixed;text-align: center;width:90px;transition: .35s  all ease-in-out ;
 }
 .quter:hover{
-  margin:253px 50px 3px -20px; border-radius: 30px;background:#76020288;transition:.35s ease-in-out ;
+  margin:253px 50px 3px -20px; border-radius: 30px;
+  background:#76020288;
 }
 ol{
   list-style-type:none;
